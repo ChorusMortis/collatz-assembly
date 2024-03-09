@@ -48,7 +48,7 @@ prompt:
     NEWLINE
     PRINT_STRING "Do you want to continue (Y/N)? "
     GET_STRING STR_INPUT, 3
-    CMP byte [STR_INPUT], "Y"
+    cmp byte [STR_INPUT], "Y"
     jz main
 
 finish:
